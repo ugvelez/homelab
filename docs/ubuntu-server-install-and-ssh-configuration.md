@@ -1,4 +1,4 @@
-# Ubuntu Server Installation
+# Ubuntu Server Installation and SSH Confuguration
 
 ## Objective
 

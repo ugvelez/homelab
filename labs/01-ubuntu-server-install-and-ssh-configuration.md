@@ -12,7 +12,7 @@ Install Ubuntu Server and configure it for remote administartion
 - [x] Reserve IP address for server
 - [x] Verify SSH connectivity from Powershell
 
-## Issue Encountered
+## Issues Encountered
 
 ### Server did not receive an IPv4 address
 

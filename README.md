@@ -4,7 +4,7 @@ This is a personal home lab project to learn and further polish skills used in I
 
 ## Overview
 
-This repository documents my cybersecurity and networking home lab.
+This repository documents my cybersecurity and networking labs.
 
 ## Goals
 

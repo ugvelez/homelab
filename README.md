@@ -1,2 +1,54 @@
-# homelab
-This is a personal homelab project to learn and further polish skills used in IT, networking, and cybersecurity jobs.
+# Cybersecurity Home Lab
+
+This is a personal home lab project to learn and further polish skills used in IT, networking, and cybersecurity jobs.
+
+## Overview
+
+This repository dosuments my cybersecurity and networking home lab.
+
+## Goals
+
+- Learn Linux Administration
+- Learn networking fundementals
+- Practice system hardening
+- Build hands-on cybersecurity skills\
+
+## Hardware
+
+- Dell Optiplex 390
+- Intel Core i3-2100
+- 4 GB Ram
+- 500 GB HDD
+
+## Operating System
+
+- Ubuntu Server 26.04 LTS
+
+## Current Projects
+
+- [x] Ubuntu Server Installation
+- [x] Network Configuration
+- [x] DHCP Reservation
+- [x] SSH Remote Administration
+- [ ] Docker
+- [ ] Nginx
+- [ ] Samba
+- [ ] WireGuard
+- [ ] Monitoring
+
+## Skils Practiced
+
+- Linux
+- SSH
+- Networking
+- Netplan
+- Systemd
+- Bash
+
+## Lab Diagram
+
+Windows PC
+     |
+     | SSH
+     ▼
+Ubuntu Server

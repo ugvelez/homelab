@@ -31,6 +31,10 @@ sudo chmod o-rx /shared
 ls -ld /shared
 ```
 
+## Issues Encounted
+
+None
+
 ## Lessons Learned
 
 - Each user has:
@@ -40,7 +44,3 @@ ls -ld /shared
   - Groups
   - Permissions
 - The principle of least privileges improves security
-
-## Issues Encounted
-
-None

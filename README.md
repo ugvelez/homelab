@@ -11,7 +11,7 @@ This repository documents my cybersecurity and networking home lab.
 - Learn Linux Administration
 - Learn networking fundementals
 - Practice system hardening
-- Build hands-on cybersecurity skills\
+- Build hands-on cybersecurity skills
 
 ## Hardware
 
@@ -30,6 +30,8 @@ This repository documents my cybersecurity and networking home lab.
 - [x] Network Configuration
 - [x] DHCP Reservation
 - [x] SSH Remote Administration
+- [x] User Management
+- [ ] Firewall (UFW)
 - [ ] Docker
 - [ ] Nginx
 - [ ] Samba
@@ -42,8 +44,9 @@ This repository documents my cybersecurity and networking home lab.
 - SSH
 - Networking
 - Netplan
-- Systemd
-- Bash
+- Adding Users
+- Adding Groups
+- Modifying Permissions
 
 ## Lab Diagram
 

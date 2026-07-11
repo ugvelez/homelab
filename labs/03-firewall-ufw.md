@@ -28,5 +28,5 @@ None
 
 ## Lessons Learned
 
-- Enabling SSH connections before enabling UFW as it could interrupt my SSH connection.
+- Allowing SSH connections before enabling UFW as it could interrupt my SSH connection.
 - A firewall prevents network traffic; it does not stop services from running.

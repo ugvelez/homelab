@@ -31,7 +31,7 @@ This repository documents my cybersecurity and networking labs.
 - [x] DHCP Reservation
 - [x] SSH Remote Administration
 - [x] User Management
-- [ ] Firewall (UFW)
+- [x] Firewall (UFW)
 - [ ] Docker
 - [ ] Nginx
 - [ ] Samba

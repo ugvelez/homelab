@@ -50,8 +50,4 @@ This repository documents my cybersecurity and networking labs.
 
 ## Lab Diagram
 
-```mermaid
-graph TD;
-Windows PC -->SSH;
-SSH --> Ubuntu Server;
-```
+Windows PC --SSH--> Ubuntu Server;

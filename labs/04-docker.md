@@ -25,7 +25,7 @@ Install and configure Docker on my server to learn what docker is, how it works,
 ```bash
 sudo apt install -y ca-certificates curl
 sudo install -m 0755 -d /etc/apt/keyrings
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
 ls -l /etc/apt/keyrings/
 ```
 

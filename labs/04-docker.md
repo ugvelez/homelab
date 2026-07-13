@@ -27,11 +27,17 @@ Install and configure Docker on my server to learn what docker is, how it works,
 for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker;
 > do sudo apt remove -y $pkg
 > done
+
 sudo apt install -y ca-certificates curl
+
 sudo install -m 0755 -d /etc/apt/keyrings
+
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+
 ls -l /etc/apt/keyrings/
+
 sudo chmod a+r /etc/apt/keyrings/docker.asc
+
 sudo tee /etc/apt/sources.list.d/docker.sources <<EOF
 Types: deb
 URIs: https://download.docker.com/linux/ubuntu
@@ -40,8 +46,11 @@ Components: stable
 Architectures: $(dpkg --print-architecture)
 Signed-By: /etc/apt/keyrings/docker.asc
 EOF
+
 sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+
 sudo systemctl status docker
+
 sudo docker run hello-world
 ```
 

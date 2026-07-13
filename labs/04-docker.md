@@ -15,7 +15,7 @@ Install and configure Docker on my server to learn what docker is, how it works,
   - [x] Update the package list
   - [x] Install Docker
 - [x] Verify the installation
-- [x] Pull the first Docker image
+- [x] Pull the first image
 - [x] Run the first container
 - [] Understand Docker Architecture
 - [] Manage a container

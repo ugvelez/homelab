@@ -7,6 +7,10 @@ Install and configure Docker on my server to learn what docker is, how it works,
 ## Tasks
 
 - [] Install Docker
+  - [] Add GPG Key
+  - [] Add repository to APT
+  - [] Update the package list
+  - [] Install Docker
 - [] Verify the installation
 - [] Understand Docker Architecture
 - [] Pull the first Docker image

@@ -6,6 +6,7 @@ Install and configure Docker on my server to learn what docker is, how it works,
 
 ## Tasks
 
+- [x] Remove any included Docker packages
 - [] Install Docker
   - [x] Verfy my server can securely communicate with Docker
   - [x] Add GPG Key
@@ -23,6 +24,9 @@ Install and configure Docker on my server to learn what docker is, how it works,
 ## Commands Used
 
 ```bash
+for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker;
+> do sudo apt remove -y $pkg
+> done
 sudo apt install -y ca-certificates curl
 sudo install -m 0755 -d /etc/apt/keyrings
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc

@@ -7,8 +7,9 @@ Install and configure Docker on my server to learn what docker is, how it works,
 ## Tasks
 
 - [] Install Docker
-  - [] Verfy my server can securely communicate with Docker
-  - [] Add GPG Key
+  - [x] Verfy my server can securely communicate with Docker
+  - [x] Add GPG Key
+  - [x] Verify key was added
   - [] Add repository to APT
   - [] Update the package list
   - [] Install Docker
@@ -20,6 +21,13 @@ Install and configure Docker on my server to learn what docker is, how it works,
 - [] Inspect images and containers
   
 ## Commands Used
+
+```bash
+sudo apt install -y ca-certificates curl
+sudo install -m 0755 -d /etc/apt/keyrings
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+ls -l /etc/apt/keyrings/
+```
 
 ## Issues Encountered
 

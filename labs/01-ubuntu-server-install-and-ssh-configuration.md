@@ -68,11 +68,11 @@ The server was initially configured to allow for SSH administration via local ne
 
 ## Changes deployed
 
--Added a port forwarding assignment:
-    `Port Assignment: SSH
-    External Port: 22
-    Internal Port: 22
-    Protocol: TCP
+Added a port forwarding assignment:
+    `Port Assignment: SSH`
+    `External Port: 22`
+    `Internal Port: 22`
+    `Protocol: TCP
     `
 ## Lessons Learned
 

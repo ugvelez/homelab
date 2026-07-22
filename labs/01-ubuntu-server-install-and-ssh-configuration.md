@@ -57,7 +57,7 @@ Allow the server to connect via an outside of network
 
 ## Issue Encountered
 
-# Symptom
+### Symptom
 
 Unable to SSH into server from an external network. Given the message:
 `Connection timed out.`

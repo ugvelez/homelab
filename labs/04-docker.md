@@ -1,5 +1,9 @@
 # Lab 4 - Docker
 
+## Date
+
+July 13, 2026
+
 ## Objective
 
 Install and configure Docker on my server to learn what docker is, how it works, and improve on my Linux foundation.

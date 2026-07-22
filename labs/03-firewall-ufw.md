@@ -1,5 +1,9 @@
 # Lab 3 - Firewall (UFW)
 
+## Date
+
+July 10, 2026
+
 ## Objective
 
 Learn how to secure Ubuntu Server by enabling the firewall (UFW) via SSH

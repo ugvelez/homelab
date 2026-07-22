@@ -1,4 +1,4 @@
-# Lab 1 - Ubuntu Server Installation and SSH Confuguration
+# Lab 1 - Ubuntu Server Installation and SSH Configuration
 
 ## Date
 

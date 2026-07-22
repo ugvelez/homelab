@@ -60,9 +60,7 @@ Allow the server to connect via an outside of network
 # Symptom
 
 Unable to SSH into server from an external network. Given the message:
-``bash
-Connection timed out.
-``
+`Connection timed out.`
 
 ## Amendment explanation
 
@@ -71,12 +69,11 @@ The server was initially configured to allow for SSH administration via local ne
 ## Changes deployed
 
 -Added a port forwarding assignment:
-    ``bash
-    Port Assignment: SSH
+    `Port Assignment: SSH
     External Port: 22
     Internal Port: 22
     Protocol: TCP
-    ``
+    `
 ## Lessons Learned
 
 - Initially, I attempted to establish an SSH connection using a private IP address, not realizing that private IP addresses are only accessible within the local network and cannot be         reached from external networks. I learned that external SSH access requires the use of a public IP address.

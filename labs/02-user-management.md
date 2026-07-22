@@ -1,5 +1,9 @@
 # Lab 2 - User Management
 
+## Date
+
+July 9, 2026
+
 ## Objective
 
 Learn how Linux manages user accounts and permissions.

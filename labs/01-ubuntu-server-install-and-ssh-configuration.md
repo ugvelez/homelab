@@ -45,7 +45,7 @@ Install Ubuntu Server and configure it for remote administartion
 - Netplan controls network configuration on Ubuntu Server
 - DHCP must be enabled for an interface to automatically obtain an IPv4 address.
 
-# *Configuration of SSH Ammendment*
+# *Configuration of SSH Amendment*
 
 ## Date Added
 
@@ -64,7 +64,7 @@ Unable to SSH into server from an external network. Given the message:
 Connection timed out.
 ``
 
-## Ammendment explanation
+## Amendment explanation
 
 The server was initially configured to allow for SSH administration via local network. Unbeknownst to me external access was needed to be configured to allow SSH administration from an  external network.
 
